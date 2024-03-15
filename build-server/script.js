@@ -5,7 +5,7 @@ const { S3Client, PutObjectCommand } = require('@aws-sdk/client-s3')
 const mime = require('mime-types')
 const Redis = require('ioredis')
 
-const publisher = new Redis('rediss://default:AVNS_FznLBb7LLAst1v_u4x0@redis-3ccc0c2f-arpantio25-7209.a.aivencloud.com:12137')
+const publisher = new Redis('')
 
 const s3Client = new S3Client({
     region : "ap-south-1",

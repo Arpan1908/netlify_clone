@@ -7,7 +7,7 @@
 // const app = express()
 // const PORT = 9000
 
-// const subscriber = new Redis('rediss://default:AVNS_FznLBb7LLAst1v_u4x0@redis-3ccc0c2f-arpantio25-7209.a.aivencloud.com:12137')
+// const subscriber = new Redis('')
 
 // const io = new Server({ cors: '*' })
 
@@ -23,8 +23,8 @@
 // const ecsClient = new ECSClient({
 //     region: 'ap-south-1',
 //     credentials: {
-//         accessKeyId: 'AKIA3U7NO2G7OW3HNBGB',
-//         secretAccessKey: '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'
+//         accessKeyId: '',
+//         secretAccessKey: ''
 //     }
 // })
 
@@ -98,7 +98,7 @@ const PORT = 9000;
 const subscriber = new Redis({
     host: 'redis-3ccc0c2f-arpantio25-7209.a.aivencloud.com',
     port: 12137,
-    password: 'AVNS_FznLBb7LLAst1v_u4x0',
+    password: '',
     tls: {}
 });
 
