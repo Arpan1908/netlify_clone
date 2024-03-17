@@ -54,9 +54,6 @@ const PROJECT_ID = process.env.PROJECT_ID
 //             console.log('Uploaded',filePath)
 //         }
 
-//         console.log('Deployment Complete')
-//     })
-// }
 
 
 function publishLog(log) {
